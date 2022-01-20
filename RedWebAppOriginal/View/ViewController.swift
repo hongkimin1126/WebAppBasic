@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        versionCheck()
     }
 
-
+    func versionCheck() {
+//        let url = "http://192.168.35.209:8080/mobile/appVersion.do?os=ios"
+//        let request = AF.request(url).responseDecodable {(response) in
+//            <#code#>
+//        }
+    
+    }
 }
 
