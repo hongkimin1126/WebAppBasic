@@ -17,11 +17,18 @@ class ViewController: UIViewController {
     }
 
     func versionCheck() {
-//        let url = "http://192.168.35.209:8080/mobile/appVersion.do?os=ios"
+        let url = "http://192.168.35.209:8080/mobile/appVersion.do?os=ios"
 //        let request = AF.request(url).responseDecodable {(response) in
 //            <#code#>
 //        }
+        
+        
+
+                   
     
     }
 }
+
+
+
 

@@ -7,7 +7,7 @@ target 'RedWebAppOriginal' do
 
   # Pods for RedWebAppOriginal
 
-pod 'Alamofire'
+pod 'Alamofire', '~> 5.3'
 pod 'Toast-Swift'
 
 end
